@@ -1,0 +1,268 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, hsl(0, 0%, 9%) 0%, hsl(0, 0%, 5%) 60%, hsl(0, 0%, 7%) 100%);
+}
+
+.gridOverlay {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  background-image: linear-gradient(hsl(0, 0%, 100%) 1px, transparent 1px),
+    linear-gradient(90deg, hsl(0, 0%, 100%) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.orangeGlow {
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  transform: translateY(-50%);
+  width: 24rem;
+  height: 24rem;
+  border-radius: 50%;
+  opacity: 0.1;
+  filter: blur(120px);
+  background: var(--primary);
+  pointer-events: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 3rem;
+  position: relative;
+  z-index: 10;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* ─── Text side ─── */
+
+.textSide {
+  flex: 1;
+  animation: slideInLeft 0.8s ease forwards;
+}
+
+.available {
+  color: var(--primary);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: clamp(3.5rem, 10vw, 5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  color: var(--fg);
+  margin-bottom: 0.75rem;
+}
+
+.nameAccent {
+  color: var(--primary);
+}
+
+.role {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: var(--muted-fg);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: rgba(245, 245, 245, 0.7);
+  font-weight: 300;
+  margin-top: 1.5rem;
+  max-width: 28rem;
+  line-height: 1.6;
+}
+
+.taglineAccent {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.ctaGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary {
+  display: inline-flex;
+  align-items: center;
+  background: var(--primary);
+  color: var(--primary-fg);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.ctaPrimary:hover {
+  opacity: 0.9;
+}
+
+.ctaOutline {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  color: var(--fg);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius);
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.ctaOutline:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* ─── Photo side ─── */
+
+.photoSide {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  animation: slideInRight 0.8s ease forwards;
+}
+
+.photoFrame {
+  position: relative;
+}
+
+.photoFrameBorder {
+  position: absolute;
+  top: -0.75rem;
+  right: -0.75rem;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(232, 150, 47, 0.4);
+  border-radius: var(--radius);
+  pointer-events: none;
+}
+
+.photoFrameBorder::before{
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 15px;
+  background-color: var(--primary);
+  bottom: -2rem;
+}
+
+.photoFrameAccent {
+  position: absolute;
+  bottom: -0.75rem;
+  left: -0.75rem;
+  width: 4rem;
+  height: 4rem;
+  border-bottom: 2px solid var(--primary);
+  border-left: 2px solid var(--primary);
+  
+}
+
+.photoWrapper {
+  position: relative;
+  width: 16rem;
+  height: 18rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+  z-index: 10;
+}
+
+.photo {
+  object-fit: cover;
+  object-position: top;
+  filter: grayscale(100%) contrast(1.05);
+}
+
+/* ─── Scroll indicator ─── */
+
+.scrollIndicator {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  opacity: 0.4;
+}
+
+.scrollText {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--fg);
+  text-transform: uppercase;
+}
+
+.scrollLine {
+  width: 1px;
+  height: 3rem;
+  background: var(--fg);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ─── Responsive ─── */
+
+@media (min-width: 768px) {
+  .container {
+    padding: 6rem 3rem 3rem;
+  }
+
+  .inner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .name {
+    font-size: clamp(5rem, 8vw, 8rem);
+  }
+
+  .role {
+    font-size: 1.25rem;
+  }
+
+  .tagline {
+    font-size: 1.125rem;
+  }
+
+  .photoSide {
+    justify-content: flex-end;
+  }
+
+  .photoWrapper {
+    width: 20rem;
+    height: 24rem;
+  }
+}

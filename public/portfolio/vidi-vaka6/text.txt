@@ -1,0 +1,7 @@
+{
+  "title": "Vidi Vaka",
+  "category": "Logo Design",
+  "year": "2021",
+  "description": "Refreshed minimalist logo for an international media brand — modern, versatile, and timeless.",
+  "tags": ["Illustrator", "Logo Design", "Brand Design", "Rebranding"]
+}

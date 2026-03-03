@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(tail:*)",
+      "Bash(cd /c/Users/Dolov/gorjan-glaveski-portfolio && npx next build 2>&1)",
+      "Bash(cd /c/Users/Dolov/gorjan-glaveski-portfolio && rm -rf .next && npx next build 2>&1)",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:cdn.jsdelivr.net)",
+      "Bash(cd C:/Users/Dolov/gorjan-glaveski-portfolio && npm run build 2>&1)"
+    ]
+  }
+}

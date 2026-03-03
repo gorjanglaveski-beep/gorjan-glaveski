@@ -1,0 +1,7 @@
+{
+  "title": "Quick Chicken",
+  "category": "Brand Identity",
+  "year": "2023",
+  "description": "Modern fast-food brand identity for a chicken nugget restaurant — quick, tasty, and youthful.",
+  "tags": ["Illustrator", "Brand Design", "Logo", "Packaging", "Food & Beverage"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Appendix Jungle Pilsner",
+  "category": "Brand Identity",
+  "year": "2023",
+  "description": "Craft beer concept with a bold, organic visual identity inspired by raw nature and urban rhythm.",
+  "tags": ["Illustrator", "Brand Design", "Packaging", "Typography", "Print"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Nuna",
+  "category": "Brand Identity",
+  "year": "2023",
+  "description": "Street pasta-to-go brand blending urban character with the taste of tradition.",
+  "tags": ["Illustrator", "Brand Design", "Logo", "Typography", "Packaging"]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Ploca",
+  "category": "Graphic Design",
+  "year": "2022",
+  "description": "Vinyl record sleeve inspired by jazz — improvisation, freedom, and a peaceful walk along the quayside.",
+  "tags": ["Illustrator", "Graphic Design", "Print", "Typography", "Album Art"]
+}
