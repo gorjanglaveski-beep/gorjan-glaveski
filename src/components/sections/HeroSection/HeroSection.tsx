@@ -2,6 +2,22 @@ import Image from 'next/image'
 import gorjanImg from '@/assets/gorjan.png'
 import styles from './HeroSection.module.css'
 
+/** Content variables */
+const heroSection = {
+  available: "Available for work",
+  firstName: "Gorjan",
+  lastName: "Glaveski",
+  role: "Graphic & UI/UX Designer",
+  tagLine: "Design that looks simple.",
+  tagLineAccent: "Works powerfully.",
+  ctaPrimary:  "View Portfolio",
+  ctaOutline: "Download CV",
+  scroll: "Scroll",
+  fileUrl: "/cv/cv-gorjan-glaveski.pdf",
+  fileName: "Gorjan_Glaveski_CV.pdf"
+}
+/** End content variables */
+
 export default function HeroSection() {
   return (
     <section id="about" className={styles.hero}>
@@ -15,24 +31,32 @@ export default function HeroSection() {
         <div className={styles.inner}>
           {/* Text side */}
           <div className={styles.textSide}>
-            <p className={styles.available}>Available for work</p>
+            <p className={styles.available}>
+              {heroSection.available}
+            </p>
             <h1 className={styles.name}>
-              Gorjan
+              {heroSection.firstName}
               <br />
-              <span className={styles.nameAccent}>Glaveski</span>
+              <span className={styles.nameAccent}>
+                {heroSection.lastName}
+              </span>
             </h1>
-            <h3 className={styles.role}>Digital Designer &nbsp;|&nbsp; UI/UX Designer</h3>
+            <h4 className={styles.role}>
+                {heroSection.role}
+            </h4>
             <p className={styles.tagline}>
-              Design that looks simple.
+              {heroSection.tagLine}
               <br />
-              <span className={styles.taglineAccent}>Works powerfully.</span>
+              <span className={styles.taglineAccent}>
+                {heroSection.tagLineAccent}
+              </span>
             </p>
             <div className={styles.ctaGroup}>
               <a href="#portfolio" className={styles.ctaPrimary}>
-                View Portfolio
+                {heroSection.ctaPrimary}
               </a>
-              <a href="#contact" className={styles.ctaOutline}>
-                Contact Me
+              <a href={heroSection.fileUrl} download={heroSection.fileName} className={styles.ctaOutline}>
+                {heroSection.ctaOutline}
               </a>
             </div>
           </div>
@@ -59,7 +83,9 @@ export default function HeroSection() {
 
       {/* Scroll indicator */}
       <div className={styles.scrollIndicator}>
-        <span className={styles.scrollText}>Scroll</span>
+        <span className={styles.scrollText}>
+          {heroSection.scroll}
+        </span>
         <div className={styles.scrollLine} />
       </div>
     </section>
