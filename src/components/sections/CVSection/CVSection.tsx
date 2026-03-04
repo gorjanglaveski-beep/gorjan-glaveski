@@ -97,7 +97,7 @@ export default function CVSection() {
         {/* ─── Work Experience ─── */}
         <div className={styles.block}>
           <span className={styles.sectionNumber}>{sections[1].sectionNumber}</span>
-          <h3 className={styles.sectionTitle}>{sections[1].sectionNumber}</h3>
+          <h3 className={styles.sectionTitle}>{sections[1].sectionTitle}</h3>
           <div className={styles.experienceList}>
             {workExperience.map((item, i) => (
               <div key={i} className={styles.experienceItem}>
