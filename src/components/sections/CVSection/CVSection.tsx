@@ -62,7 +62,7 @@ const sections = [
         eduDesc: (<>
           Part of the Dream Team · January Student of the Month
           <br />
-          Winner of the projects "Buchen Kozjak" Vidi
+          Winner of the projects {"Buchen Kozjak"} Vidi
           Vaka — redesign of existing logos.
         </>)
       },
