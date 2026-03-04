@@ -6,24 +6,28 @@ const workExperience = [
     role: "Senior Digital Designer",
     type: "Full Time",
     period: "01.09.2022 — Present",
+    description: `Lead visual design for slot and casino products, created high-fidelity UI, motion assets, and brand campaigns. Collaborated with product and engineering to ship pixel-perfect designs and improve conversion metrics.`,
   },
   {
     company: "Galeksia",
     role: "Graphic Designer",
     type: "Full Time",
     period: "02.02.2022 — 02.08.2022",
+    description: `Designed marketing materials, logos, and UI assets for web projects. Focused on illustrations, print layouts and client-facing presentations.`,
   },
   {
     company: "Freelance",
     role: "Graphic Designer",
     type: "Self-employed",
     period: "Ongoing",
+    description: `Worked with small businesses and startups on brand identity, web graphics, and product mockups. Delivered end-to-end design from concept to final assets.`,
   },
   {
     company: "Monday",
     role: "Graphic Designer",
     type: "Contractor",
     period: "01.02.2020 — 01.04.2020",
+    description: `Short-term engagement producing marketing banners, landing page visuals and campaign assets while coordinating with the marketing team.`,
   },
 ];
 
@@ -106,6 +110,9 @@ export default function CVSection() {
                   <p className={styles.jobMeta}>
                     {item.role} · {item.type}
                   </p>
+                  {item.description && (
+                    <p className={styles.experienceDesc}>{item.description}</p>
+                  )}
                 </div>
                 <span className={styles.period}>{item.period}</span>
               </div>

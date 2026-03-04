@@ -1,7 +1,8 @@
-{
-  "title": "The Biker",
-  "category": "Logo Design",
-  "year": "2024",
-  "description": "Fresh logo for a professional downhill rider — pure speed, raw dynamics, and adrenaline in minimalist form.",
-  "tags": ["Illustrator", "Logo Design", "Sports", "Brand Design"]
-}
+title: The Biker
+category: Logo Design
+year: 2024
+tags: Illustrator, Logo Design, Sports, Brand Design
+
+Fresh logo for a professional downhill rider  capturing pure speed, raw dynamics, and adrenaline in a strong minimalist form.
+
+The identity is built on sharp lines, bold structure, and clean composition to reflect movement, power, and precision. Designed to perform across helmets, bikes, gear, and digital platforms, the mark stays simple, aggressive, and instantly recognizable.

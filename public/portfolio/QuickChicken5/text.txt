@@ -1,7 +1,6 @@
-{
-  "title": "Quick Chicken",
-  "category": "Brand Identity",
-  "year": "2023",
-  "description": "Modern fast-food brand identity for a chicken nugget restaurant — quick, tasty, and youthful.",
-  "tags": ["Illustrator", "Brand Design", "Logo", "Packaging", "Food & Beverage"]
-}
+title: Quick Chicken
+category: Brand Identity
+year: 2023
+tags: Illustrator, Brand Design, Logo, Packaging, Food & Beverage
+
+Quick Chicken is a modern fast-food brand focused on high quality chicken nuggets, created for people who want a quick, tasty meal with a consistent standard. The brand combines a simple menu with a recognizable visual identity and youthful energy, positioning itself as a go to choice for fast food without compromising on taste. The project explores the balance between speed, quality, and the playful character of a contemporary street food brand.

@@ -1,7 +1,8 @@
-{
-  "title": "Vidi Vaka",
-  "category": "Logo Design",
-  "year": "2021",
-  "description": "Refreshed minimalist logo for an international media brand — modern, versatile, and timeless.",
-  "tags": ["Illustrator", "Logo Design", "Brand Design", "Rebranding"]
-}
+title: Vidi Vaka
+category: Logo Design
+year: 2021
+tags: Illustrator, Logo Design, Brand Design, Rebranding
+
+Vidi Vaka is a digital media platform focused on meaningful, socially relevant stories for the online generation.
+
+For this project, I created a rebranding concept and redesigned the logo to strengthen its credibility, clarity, and digital presence.

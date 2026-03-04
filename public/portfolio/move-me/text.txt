@@ -1,7 +1,6 @@
-{
-  "title": "Move Me",
-  "category": "Brand Identity",
-  "year": "2024",
-  "description": "Brand identity and visual design for a modern, dynamic brand.",
-  "tags": ["Illustrator", "Brand Design", "Logo", "Typography"]
-}
+title: Move Me
+category: Brand Identity
+year: 2024
+tags: Illustrator, Brand Design, Logo, Typography
+
+Brand identity and visual design for a modern, dynamic brand.

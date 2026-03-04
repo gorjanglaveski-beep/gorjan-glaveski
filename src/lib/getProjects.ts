@@ -30,7 +30,54 @@ function getGalleryImages(dir: string, id: string): string[] {
 
 function readProject(id: string): Project {
   const dir = path.join(PORTFOLIO_DIR, id)
-  const meta = JSON.parse(fs.readFileSync(path.join(dir, 'text.txt'), 'utf-8'))
+  const raw = fs.readFileSync(path.join(dir, 'text.txt'), 'utf-8')
+  let meta: any = null
+
+  // Try JSON first (existing behavior)
+  try {
+    meta = JSON.parse(raw)
+  } catch (err) {
+    // Fallback: support a simple key:value header followed by a free-form body.
+    // This allows `text.txt` to be any format (markdown, code blocks, plain text)
+    // while still supporting a few metadata keys at the top.
+    // Example:
+    // title: Cyber Lux
+    // category: UI/UX Design
+    // year: 2024
+    // tags: Figma, UI Design, iGaming
+    //
+    // <blank line>
+    // The rest of the file becomes the description (keeps newlines and formatting).
+
+    const lines = raw.split(/\r?\n/)
+    const header: Record<string, string> = {}
+    let i = 0
+    for (; i < lines.length; i++) {
+      const line = lines[i]
+      if (line.trim() === '') {
+        i++
+        break
+      }
+      const m = line.match(/^([^:]+):\s*(.*)$/)
+      if (m) {
+        header[m[1].trim().toLowerCase()] = m[2].trim()
+      } else {
+        // Not a key:value line — stop header parsing and treat everything as body
+        i = 0
+        break
+      }
+    }
+
+    const body = lines.slice(i).join('\n').trim()
+
+    meta = {
+      title: header.title || id,
+      category: header.category || '',
+      year: header.year || '',
+      description: body || raw,
+      tags: header.tags ? header.tags.split(',').map((t) => t.trim()).filter(Boolean) : [],
+    }
+  }
   const images = getGalleryImages(dir, id)
   const thumbnail = getThumbnail(dir, id) || images[0] || ''
   return {

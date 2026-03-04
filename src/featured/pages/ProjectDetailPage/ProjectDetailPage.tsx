@@ -36,7 +36,7 @@ export default function ProjectDetailPage({ id }: { id: string }) {
             {project.category} · {project.year}
           </span>
           <h1 className={styles.title}>{project.title}</h1>
-          <p className={styles.description}>{project.description}</p>
+          <div className={styles.description}>{project.description}</div>
           <div className={styles.tags}>
             {project.tags.map((tag) => (
               <span key={tag} className={styles.tag}>

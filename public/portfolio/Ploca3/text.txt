@@ -1,7 +1,6 @@
-{
-  "title": "Ploca",
-  "category": "Graphic Design",
-  "year": "2022",
-  "description": "Vinyl record sleeve inspired by jazz — improvisation, freedom, and a peaceful walk along the quayside.",
-  "tags": ["Illustrator", "Graphic Design", "Print", "Typography", "Album Art"]
-}
+title: Kraj Vardarot JAZZ
+category: Graphic Design
+year: 2022
+tags: Illustrator, Graphic Design, Print, Typography, Album Art
+
+From music to visualization.The main inspiration for this solution is released from its music which is engraved on this particular vinyl release. Just like in jazz, which is the freest musical expression based on improvisation and breaking all musical rules, the center of the design itself is an irregular keyboard that is actually only part of the bigger picture. I wanted to capture a peaceful walk along the quayside, a reflection in the water and a space for lots of freedom and music. The dominant colors of the front design, blue and red, are also symbolized on the back side, but here they are completely different in importance and contain something essential - a kiss between a male and female figure. Design is a positive view of life and beautiful things - love, music, play, freedom...

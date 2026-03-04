@@ -86,6 +86,14 @@
   white-space: nowrap;
 }
 
+.experienceDesc {
+  color: var(--cv-muted);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  max-width: 40rem;
+}
+
 /* ─── Education ─── */
 
 .educationList {

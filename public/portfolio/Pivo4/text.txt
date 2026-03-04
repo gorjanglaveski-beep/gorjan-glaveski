@@ -1,7 +1,8 @@
-{
-  "title": "Appendix Jungle Pilsner",
-  "category": "Brand Identity",
-  "year": "2023",
-  "description": "Craft beer concept with a bold, organic visual identity inspired by raw nature and urban rhythm.",
-  "tags": ["Illustrator", "Brand Design", "Packaging", "Typography", "Print"]
-}
+title: Appendix Jungle Pilsner
+category: Brand Identity
+year: 2023
+tags: Illustrator, Brand Design, Packaging, Typography, Print
+
+Appendix Jungle Pilsner is a craft beer concept inspired by the contrast between raw nature and urban rhythm. Built on a classic pilsner foundation, the brand expresses a bold, organic, and contemporary visual identity.
+
+Jungle is not a place, but a mindset  a symbol of instinct, freedom, and independent spirit. The design combines strong typography, a restrained color palette, and raw textures to create an authentic, unpolished character aimed at those who seek something beyond the mainstream.

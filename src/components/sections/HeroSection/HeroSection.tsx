@@ -7,7 +7,7 @@ const heroSection = {
   available: "Available for work",
   firstName: "Gorjan",
   lastName: "Glaveski",
-  role: "Graphic & UI/UX Designer",
+  role: "Digital & UI/UX Designer",
   tagLine: "Design that looks simple.",
   tagLineAccent: "Works powerfully.",
   ctaPrimary:  "View Portfolio",

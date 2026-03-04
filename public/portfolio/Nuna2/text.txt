@@ -1,7 +1,6 @@
-{
-  "title": "Nuna",
-  "category": "Brand Identity",
-  "year": "2023",
-  "description": "Street pasta-to-go brand blending urban character with the taste of tradition.",
-  "tags": ["Illustrator", "Brand Design", "Logo", "Typography", "Packaging"]
-}
+title: Nuna
+category: Brand Identity
+year: 2023
+tags: Illustrator, Brand Design, Logo, Typography, Packaging
+
+NUNA is a mini brand inspired by my personal love for pasta. The concept represents “street pasta to go” spaghetti with an urban character, blending the taste of tradition with the fast-paced rhythm of modern living. With a clean and creative design, NUNA brings pasta to the streets as a modern culinary experience.

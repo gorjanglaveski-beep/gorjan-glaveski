@@ -1,7 +1,8 @@
-{
-  "title": "Ar Sad Astra",
-  "category": "Brand Identity",
-  "year": "2024",
-  "description": "Brand identity with an aspirational character — bold, clean, and reaching for the stars.",
-  "tags": ["Illustrator", "Brand Design", "Logo", "Typography"]
-}
+title: Ar Sad Astra
+category: Brand Identity
+year: 2024
+tags: Illustrator, Brand Design, Logo, Typography
+
+Ars Ad Astra is an association of artists and educators from Bitola dedicated to organizing events for classical music enthusiasts.
+
+For this organization, I developed a compact branding system that reflects elegance, culture, and artistic depth. The visual identity is refined and timeless, aligned with the spirit of classical music while ensuring clarity and contemporary presence across promotional materials.
