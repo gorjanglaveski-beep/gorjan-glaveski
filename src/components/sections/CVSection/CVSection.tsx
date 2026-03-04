@@ -156,16 +156,16 @@ export default function CVSection() {
           <span className={styles.sectionNumber}>04</span>
           <h3 className={styles.sectionTitle}>Skills</h3>
           <div className={styles.skillsGrid}>
-            {/* Figma */}
-            <div className={styles.skillBadge}>
-              <img className="icon" src="/icons/Figma-4.svg" width="36" height="36" alt="figma-icon"></img>
-              <span className={styles.skillLabel}>Figma</span>
-            </div>
-
             {/* Photoshop — official Simple Icons path (rounded rect + letter cutouts) */}
             <div className={styles.skillBadge}>
               <img className="icon" src="/icons/Photoshop-1.svg" width="36" height="36" alt="figma-icon"></img>
               <span className={styles.skillLabel}>Photoshop</span>
+            </div>
+
+            {/* Illustrator — official Simple Icons path */}
+            <div className={styles.skillBadge}>
+              <img className="icon" src="/icons/Illustrator-2.svg" width="36" height="36" alt="figma-icon"></img>
+              <span className={styles.skillLabel}>Illustrator</span>
             </div>
 
             {/* After Effects — official Simple Icons path */}
@@ -174,11 +174,11 @@ export default function CVSection() {
               <span className={styles.skillLabel}>After Effects</span>
             </div>
 
-            {/* Illustrator — official Simple Icons path */}
+            {/* Figma */}
             <div className={styles.skillBadge}>
-              <img className="icon" src="/icons/Illustrator-2.svg" width="36" height="36" alt="figma-icon"></img>
-              <span className={styles.skillLabel}>Illustrator</span>
-            </div>
+              <img className="icon" src="/icons/Figma-4.svg" width="36" height="36" alt="figma-icon"></img>
+              <span className={styles.skillLabel}>Figma</span>
+            </div>            
           </div>
         </div>
       </div>
