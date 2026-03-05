@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { getProject } from '@/lib/getProjects'
+import Navigation from '@/components/sections/Navigation/Navigation'
 import styles from './ProjectDetailPage.module.css'
 
 export default function ProjectDetailPage({ id }: { id: string }) {
@@ -19,22 +20,14 @@ export default function ProjectDetailPage({ id }: { id: string }) {
 
   return (
     <div className={styles.page}>
-      {/* ─── Top bar ─── */}
-      <div className={styles.topBar}>
-        <div className={styles.topBarInner}>
-          <Link href="/#portfolio" className={styles.backLink}>
-            <ArrowLeft size={16} />
-            Back to Portfolio
-          </Link>
-        </div>
-      </div>
+      <Navigation />
 
       {/* ─── Hero ─── */}
       <section className={styles.hero}>
         <div className={styles.heroInner}>
-          <span className={styles.meta}>
+          {/* <span className={styles.meta}>
             {project.category} · {project.year}
-          </span>
+          </span> */}
           <h1 className={styles.title}>{project.title}</h1>
           <div className={styles.description}>{project.description}</div>
           <div className={styles.tags}>

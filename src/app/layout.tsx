@@ -17,9 +17,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Gorjan Glaveski — Digital Designer',
+  title: 'Gorjan Glaveski',
   description:
     'Senior Digital Designer & UI/UX Designer. Design that looks simple. Works powerfully.',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({
