@@ -3,7 +3,7 @@ import styles from "./CVSection.module.css";
 const workExperience = [
   {
     company: "Rhino Entertainment",
-    role: "Senior Digital Designer",
+    role: "Digital Designer",
     type: "Full Time",
     period: "01.09.2022 — Present",
     description: `Lead visual design for slot and casino products, created high-fidelity UI, motion assets, and brand campaigns. Collaborated with product and engineering to ship pixel-perfect designs and improve conversion metrics.`,
@@ -35,13 +35,7 @@ const sections = [
   {
     sectionNumber: "01",
     sectionTitle: "Profile",
-    profileText: `
-      Experienced Graphic & UI/UX Designer with a background in the
-      iGaming industry. Specialized in building high-impact visual
-      identities and intuitive digital experiences that increase
-      engagement and performance. Skilled in modern and AI-driven
-      design tools.
-    `
+    profileText: "Creative Graphic Designer with experience in the iGaming industry, building impactful visual identities and effective digital designs. Skilled in modern tools, with an understanding of UI/UX and experience using AI to enhance the design process."
   },
   {
     sectionNumber: "02",

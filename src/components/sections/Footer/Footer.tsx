@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <span>© 2025 Gorjan Glaveski. All rights reserved.</span>
-        <span>Senior Digital Designer · UI/UX</span>
+        <span>Digital Designer · UI/UX</span>
       </div>
     </footer>
   )
